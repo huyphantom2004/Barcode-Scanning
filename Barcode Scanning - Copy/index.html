@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chụp ảnh và quét mã vạch</title>
+</head>
+<body>
+    <h1>Quan sát camera và quét mã vạch</h1>
+    <!-- Video từ camera -->
+    <video id="camera" autoplay playsinline width="400" height="300" style="border: 1px solid black;"></video>
+    <!-- Vùng hiển thị kết quả mã vạch -->
+    <p id="barcode-result"></p>
+    <!-- Vùng hiển thị hình ảnh -->
+    <h3>Hình ảnh sản phẩm:</h3>
+    <img id="product-image" width="400" height="300" style="border: 1px solid black;">
+    <button id="stop-button">Dừng quét</button>
+    <script src="https://unpkg.com/@ericblade/quagga2"></script>
+    <script async src="https://cse.google.com/cse.js?cx=a1a6cae8eebb74162">
+    </script>
+    <div class="gcse-search"></div>
+    <script src = "./Scanning.js" ></script>
+</body>
+</html>
